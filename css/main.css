@@ -1,0 +1,128 @@
+!* common.css * CSS Document * The site is designed by CHUANGHUI,Inc 11/2016*/
+@charset "utf-8";
+/*样式重置*/
+body{background-color: #ffffff; color: #ddd; font-family: "Ubuntu","Arial",sans-serif; font-size: 14px; line-height: 1.5; margin: 0; padding: 0;}
+div{margin: 0; padding: 0;}
+ol, ul{list-style: outside none none; margin: 0; padding: 0;}
+img{border: 0;width: 100%;}
+.fl {float: left;}
+.fr {float: right;}
+/*首页*/
+/*顶部*/
+.tolbar{background: #fff url(../images/logo.png) no-repeat 10px 12px;height: 60px;border-bottom: 1px solid #3d3a3a;width: 100%;line-height: 60px;position: fixed;top: 0;left: 0;right: 0;}
+.menu-button{cursor: pointer; height: 36px; margin: 12px; position: relative; width: 36px;}
+.menu-button::before{border-bottom: 17px double #1fc7c7; border-top: 6px solid #1fc7c7; content: ""; height: 28px; position: absolute; right: 10px; top: 5px; width: 30px;}
+.menu-left{float: right; margin-right: 0;}
+/*左侧列表*/
+.sidebar{width: 250px;background: #f2f2f2;padding: 0;margin:0;z-index: 3000;position: fixed;top: 0px;left: 0px;bottom: 0px;}
+.sidebar h6{background: url(../images/logo-hover.png) no-repeat center center;width: 250px;height: 90px;margin: 0;padding: 0;}
+.sidebar ul li{line-height: 50px;border-bottom: 1px solid #898989;margin: 0;padding: 0 20px;}
+.sidebar ul li a{color: #898989;}
+.sidebar ul li:hover{background: #898989;}
+.sidebar ul li:hover a{color: #f2f2f2;text-decoration: none;}
+.sidebar ul li.menu_product,.sidebar ul li.menu_brand{background: url(../images/menu-jia.png) no-repeat center right;}
+.sidebar ul li.menu_product:hover,.sidebar ul li.menu_brand:hover{background: #898989 url(../images/menu-jia.png) no-repeat center right;}
+.sidebar ul li.menu_product:hover a,.sidebar ul li.menu_brand:hover a{color: #f2f2f2;}
+.sidebar ul li.menu_product1,.sidebar ul li.menu_product2,.sidebar ul li.menu_brand1,.sidebar ul li.menu_brand2{background: #fff;display: none;}
+.sidebar ul li.menu_product1 a,.sidebar ul li.menu_product2 a,.sidebar ul li.menu_brand1 a,.sidebar ul li.menu_brand2 a,{color: #898989;}
+/*中间图片*/
+.index_dorabox_image{margin: 60px 0 auto;width: 100%;overflow: hidden;padding: 0;}
+.index_pro_free{width: 100%;overflow: hidden;padding: 0;margin:0 auto;}
+.index_pro_o2o{width: 100%;overflow: hidden;padding: 0;margin:0 auto;}
+/*中间分享*/
+.index_share{width: 100%;height: 340px;position: relative;background: #a1a4a9;}
+.index_share_main{margin: 0 auto;height: 340px;width: 280px;overflow: hidden;background: url(../images/index_share.png) no-repeat top center;}
+.share_main_top{width: 280px;height: 185px;margin: 0 auto;text-align: center;}
+.share_main_bottom{height: 60px; margin: 8px auto; width: 268px}
+.share_main_bottom a{float: left;height: 60px;margin-right: 44px;width: 60px;}
+.share_main_bottom a.index_share_weibo{background: url(../images/index_share_ico.png) no-repeat 0 0;}
+.share_main_bottom a.index_share_weibo:hover{background: url(../images/index_share_ico_color.png) no-repeat 0 0;}
+.share_main_bottom a.index_share_wechat{background: url(../images/index_share_ico.png) no-repeat -105px 0;}
+.share_main_bottom a.index_share_wechat:hover{background: url(../images/index_share_ico_color.png) no-repeat -105px 0;}
+.share_main_bottom a.index_share_taobao{background: url(../images/index_share_ico.png) no-repeat -209px 0;margin-right: 0;}
+.share_main_bottom a.index_share_taobao:hover{background: url(../images/index_share_ico_color.png) no-repeat -209px 0;}
+/*微信扫描码*/
+.index_share_ewm_main{width: 152px;height: 185px;margin: 0 auto;background: url(../images/index_share_ewm_box.png) no-repeat center bottom;text-align: center;display: none;}
+.index_share_ewm_main img{width: 120px;height: 120px;margin-top: 38px;}
+/*底部*/
+.footbox{width: 100%;margin: 0 auto;text-align: center;color: #656566;}
+.foot_top{border-bottom: 1px solid #898989;padding: 20px 0;}
+.foot_bottom{padding: 20px 0;}
+.footbox a{text-decoration: none;color: #656566;}
+
+/*产品*/
+/*视频播放部分*/
+.pro_MV {margin:60px auto 0;}
+.pro-VShow {width:100%;overflow:hidden;padding:0;margin:0 auto;position:relative;}
+#pro-VShowing {position:absolute;display:none;height:300px;top:30%;left:0;text-align:center;width:100%;}
+.pro-mvbox {text-align:center;}
+.product_o2o {width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.product_infoOrder {width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.product_flower {width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.product_medicine {width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.product_page {width:100%;overflow:hidden;padding:0;margin:0 auto;}
+/*产品设计*/
+.sign_mv {margin:60px auto 0;}
+.sign-VShow {width:100%;overflow:hidden;padding:0;margin:0 auto;position:relative;}
+#sign-VShowing {position:absolute;display:none;height:300px;top:30%;left:0;text-align:center;width:100%;}
+.product_model {width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.product_details_size{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.product_details_led{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.product_details_home{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.productDesign_page{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+/*动漫*/
+.carton_mv {margin:60px auto 0;}
+.carton-VShow {width:100%;overflow:hidden;padding:0;margin:0 auto;position:relative;}
+#carton-VShowing {position:absolute;display:none;height:300px;top:30%;left:0;text-align:center;width:100%;}
+.cartoon_sort {width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.wechat_expression{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.cartoon_peripheral{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+/*商务*/
+.brand_cooperation{width: 100%;overflow: hidden;padding: 0;margin: 60 auto 0;background: #545454;}
+.brand_cooperation_content{width: 300px;height: 230px;margin: 0 auto;background: url(../images/brand_cooperation_ico.png) no-repeat center top;}
+.brand_cooperation_content_main{width: 300px;height: 230px;margin: 0 auto;background: url(../images/brand_cooperation_ico_off.png) no-repeat center top;}
+.brand_cooperation_many{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+.brand_cooperation_txt{width:100%;overflow:hidden;padding:0;margin:0 auto;}
+/*商务代理*/
+.agent_why{width:100%;overflow:hidden;padding:0;margin:60px auto 0;}
+.agent_how_title{background: #fff;width: 100%;margin: 0 auto;overflow: hidden;border-bottom: 1px solid #84CCC9;height: auto;}
+.agent_how_content{color: #525051; margin: 12px auto 45px; width: 90%;}
+.agent_how_content h3{color: #525051; font-size: 1.2em; font-weight: bold; line-height: 160%; text-align: center;}
+.agent_how_content p{text-align: center;}
+.agent_how_content ul{display: block; margin: 5px auto 0; width: 100%;}
+.agent_how_content ul li{line-height: 160%; margin-top: 5px}
+.agent_how_content ul li h3{background: rgba(0, 0, 0, 0) url("../images/ico_agent_how.jpg") no-repeat left center; padding-left: 30px; text-align: left;}
+.agent_how_content ul li p{text-align: left; padding-left: 30px;}
+/*新闻*/
+.news_title{background: url(../images/bg_news.jpg) repeat scroll 0 0; height: auto; margin: 60px auto 0; width: 100%;}
+.news_title ul{width: 100%;margin: 0 auto;}
+.news_title ul li{background: #fff url("../images/news_li_bg.png") no-repeat scroll right bottom; color: #3e3e3e; font-size: 100%; margin-bottom: 5px; margin-top: 15px; padding-top: 15px; text-align: center; width: 100%;}
+.news_title ul li a img{margin-bottom: 50px; margin-left: 5px; width: 44%;}
+.news_cell_right{width: 50%;text-align: left;}
+.news_cell_right h4{font-size: 100%; margin: 0 8px; text-align: left; font-weight: bold;}
+.news_cell_right h4 a,.news_cell_right h4 a:hover,.news_cell_right h4 a:visited,.news_cell_right h4 a:link{text-decoration: none;color: #3e3e3e;}
+.news_cell_right p.news_cell_txt{line-height: 120%; margin: 5px 8px 0; overflow: hidden; text-align: left;}
+.news_cell_right p.news_cell_date{font-style: italic; margin: 5px 8px 0; text-align: right;}
+.news_bottom{padding: 50px 15px;text-align: center;width: 100%;}
+.news_page{margin: 0 auto;}
+.news_page span{border: 1px #999 solid;padding: 6px 16px;background: #F0F0F0;color: #999;text-align: center;margin-right: 5px;}
+.news_page span a{text-decoration: none;color: #999;}
+.news_page span.current{background: #ECB237;color: #fff;position: relative;border: 1px solid #ECB237;}
+.news_page span.current em{position: absolute;border-bottom: 8px solid #ECB237;border-right: 8px solid #f1eff0;border-left: 8px solid #f1eff0;top: -9px;left: 14px;display: block;width: 0;height: 0;}
+.news_page span.current a{color: #fff;}
+.news_page span.chose{background: #464646;border: 1px solid #464646;color: #fff;}
+.news_page span.chose a{color: #fff;}
+.news_page span.chose:hover{background: #ECB237;border: 1px solid #ECB237}
+/*关于我们*/
+.chuanghui_introduction{width: 100%;margin: 60px auto 0;overflow: hidden;padding: 0;}
+.chuanghui_mv{margin:0 auto;}
+.chuanghui-VShow{width:100%;overflow:hidden;padding:0;margin:0 auto;position:relative;}
+#chuanghui-VShowing{position:absolute;display:none;height:300px;top:8%;left:0;text-align:center;width:100%;}
+.chuanghui_team{width: 100%;margin: 60px auto 0;overflow: hidden;padding: 0;margin-top: 6px;}
+/*招聘*/
+.recruit_join_banner{width: 100%;margin: 60px auto 0;overflow: hidden;padding: 0;}
+.recruit_welfare{width: 100%;margin: 60px auto 0;overflow: hidden;padding: 0;}
+.recruit_post{width: 100%;margin: 0 auto;overflow: hidden;padding: 0;background: #1d1c2a;}
+.recruit_post ul{margin: 10px auto; width: 300px;}
+.recruit_post ul li{width: 150px;height: 100px;margin: 15px 0;text-align: center;}
+.recruit_post ul li img{width: 65%;}
